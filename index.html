@@ -8,31 +8,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
     <title>Dr Paola Trindade</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+
+    <script src="./js/index.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("1942nLoci-Flsgeyk");
+
+        })();
+    </script>
+
 </head>
 
 <body>
     <header>
         <div class="icons-navbar">
             <div class="tel-header ">
-                <img class="icon-contato" src="img/tel-icon.svg" alt="">
-                <p>(11)0000-0000</p>
+                <img class="icon-contato" src="./img/tel-icon.svg" alt="">
+                <p>(11) 98695-6577</p>
             </div>
             <div class="icons-header">
-                <img class="icon-contato" src="img/linkdlin.svg" alt="">
-                <img class="icon-contato" src="img/insta-icon.svg" alt="">
-                <img class="icon-contato" src="img/whatssap-icon.svg" alt="">
-                <img class="icon-contato" src="img/mail-icon.svg" alt="">
+                <a href="https://www.linkedin.com/in/drapaolameinicke" target="_blank" rel="noopener noreferrer"><img
+                        class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
+                <a href="https://www.instagram.com/drapaola.procto/" target="_blank" rel="noopener noreferrer"><img
+                        class="icon-redes" src="./img/Insta-icon.svg" alt=""></a>
+                <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
+                    target="_blank" rel="noopener noreferrer"><img class="icon-redes" src="img/whatssap-icon.svg" alt=""></a>
+                <a href="mailto:contatodrapaolaprocto@gmail.com"> <img class="icon-redes" src="./img/mail-icon.svg"
+                        alt=""></a>
             </div>
         </div>
 
         <div class="navbar">
-            <img src="img/Logo-PM.svg" alt="Logo">
+            <img src="./img/Logo-PM.svg" alt="Logo">
 
             <div class="nav-itens">
                 <ul class="list-nav">
                     <li><a href="#">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#about">Sobre Mim</a></li>
                     <li><a href="#contact">Contato</a></li>
                     <li><a href="#local">Localização</a></li>
@@ -44,45 +63,61 @@
     <main>
         <section class="conteiner-about">
             <div class="bg-about">
-
             </div>
             <article class="article-about" id="about">
-                <img src="img/img-paola.svg" alt="Foto Dra Paola">
+                <img src="./img/img-paola.svg" alt="Foto Dra Paola">
                 <div>
                     <h1>Dra Paola Trindade Meinicke</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, voluptatum. Pariatur cupiditate
-                        voluptatem, dolorum ullam minus doloremque nemo. Eius neque voluptatem ipsa quas temporibus
-                        officiis harum quasi saepe tenetur minus? Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Minima similique maiores in architecto ab ducimus aliquam commodi ea! Quia, at voluptates.
-                        Distinctio voluptatem facilis explicabo iure minus, aspernatur at vitae?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In similique libero voluptates eos
-                        officia consequuntur error porro? Magnam aut rerum autem voluptatum numquam molestias esse
-                        mollitia eum impedit facere? Ratione. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Minus, fugit illo. Quisquam consequuntur mollitia ad tempore? Placeat nostrum doloremque eveniet
-                        dicta voluptates, dolor numquam minus deserunt, ipsa sequi tempore quis!</p>
+                    <p>Dra. Paola Meinicke é uma renomada Médica Coloproctologista dedicada ao
+                        cuidado integral de seus pacientes. Com uma formação sólida, graduou-se em
+                        Medicina pela Universidade Vila Velha, no Espírito Santo, e realizou sua Residência
+                        Médica em Cirurgia Geral e Coloproctologia no Hospital Heliópolis, em São Paulo.
+                        Além disso, é membro filiado da Sociedade Brasileira de Coloproctologia.</p>
+                    <p>Com uma vasta experiência, a Dra. Paola oferece atendimentos especializados em
+                        coloproctologia, abrangendo uma ampla gama de condições, como Doenças
+                        Inflamatórias Intestinais, Doenças Orificiais, Câncer Colorretal, entre outras. Seu
+                        compromisso com a excelência se reflete em sua prática clínica, onde realiza
+                        cirurgias coloproctológicas e procedimentos como ligadura elástica para o
+                        tratamento da Doença Hemorroidária no consultório, além de anuscopia com laudo.</p>
+                    <p>O diferencial da Dra. Paola reside em seus pilares fundamentais: acolhimento,
+                        respeito, empatia e tratamento individualizado. Buscando estreitar ainda mais a
+                        relação médico-paciente, ela oferece um ambiente acolhedor e um cuidado
+                        personalizado, garantindo o melhor atendimento possível a cada indivíduo que
+                        busca seus serviços.</p>
                     <div class="redes-about">
-                        <img class="icon-redes" src="img/linkdlin.svg" alt="">
-                        <img class="icon-redes" src="img/insta-icon.svg" alt="">
-                        <img class="icon-redes" src="img/whatssap-icon.svg" alt="">
-                        <img class="icon-redes" src="img/mail-icon.svg" alt="">
+                        <a href="https://www.linkedin.com/in/drapaolameinicke" target="_blank"
+                            rel="noopener noreferrer"><img class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
+
+
+                        <a href="https://www.instagram.com/drapaola.procto/" target="_blank"
+                            rel="noopener noreferrer"><img class="icon-redes" src="./img/insta-icon.svg" alt=""></a>
+
+
+                        <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
+                            target="_blank" rel="noopener noreferrer"><img class="icon-redes"
+                                src="./img/whatssap-icon.svg" alt=""></a>
+
+
+                        <a href="mailto:contatodrapaolaprocto@gmail.com"> <img class="icon-redes"
+                                src="./img/mail-icon.svg" alt=""></a>
                     </div>
                 </div>
             </article>
             <section class="training-about">
 
                 <div class="training-icons">
-                    <img src="img/capelo-icon.svg" alt="Icone Capelo">
+                    <img src="./img/capelo-icon.svg" alt="Icone Capelo">
                     <p>Graduação em Medicina na Universidade Vila Velha - Espírito Santo</p>
                 </div>
                 <div class="training-icons">
-                    <img src="img/icon-medic.svg" alt="Icone Medica">
+                    <img src="./img/icon-medic.svg" alt="Icone Medica">
                     <p>Residência Médica em Cirurgia Geral no Hospital Heliópolis - São Paulo</p>
                 </div>
 
-                <div class="training-icons"><img src="img/icon-medic.svg" alt="Icone Medica">
+                <div class="training-icons"><img src="./img/icon-medic.svg" alt="Icone Medica">
                     <p>Residência Médica em Coloproctologia no Hospital Heliópolis - São Paulo</p>
                 </div>
-                <div class="training-icons"><img src="img/icon-medic.svg" alt="Icone Medica">
+                <div class="training-icons"><img src="./img/icon-medic.svg" alt="Icone Medica">
                     <p>Membro Filiado da Sociedade Brasileira de Coloproctologia</p>
                 </div>
             </section>
@@ -93,109 +128,168 @@
 
             <div class="cards">
                 <div class="card-treatment">
-                    <h3>tratamento de Doenças Inflamatórias</h3>
+                    <h3> Doença Diverticular</h3>
                     <ul>
-                        <li>Doença de Crohn </li>
-                        <li>Retocolite Ulcerativa</li>
+                        <li> Tratamento especializado para a Doença Diverticular,
+                            visando o alívio dos sintomas e a melhoria da qualidade de vida.
+                        </li>
+
                     </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>tratamento de Doenças Orificiais</h3>
+                    <h3>Câncer Colorretal*</h3>
                     <ul>
-                        <li>Doença Hemorroidária </li>
-                        <li>Fissuras Anais</li>
-                        <li>Fístulas Anorretais</li>
-                        <li>Plicomas etc. </li>
+                        <li> Abordagem integral e cuidadosa para o diagnóstico e
+                            tratamento do Câncer Colorretal, priorizando a saúde e o bem-estar dos pacientes.</li>
+
                     </ul>
-                </div>
-                <div class="card-treatment">
-                    <h3>Doença Diverticular</h3>
-                    <ul>
-                        <li>Doença de Crohn </li>
-                        <li>Retocolite Ulcerativa</li>
-                    </ul>
-                </div>
-                <div class="card-treatment">
-                    <h3>Câncer Colorretal</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
-                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
                 </div>
                 <div class="card-treatment">
                     <h3>Pólipos Intestinais</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
-                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <ul>
+                        <li>Avaliação e remoção de pólipos intestinais de forma segura
+                            e eficaz, visando a prevenção do desenvolvimento de câncer colorretal. </li>
+
+                    </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>Constipação Intestinal</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
-                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <h3>Constipação Intestinall</h3>
+                    <ul>
+                        <li>Tratamento individualizado para a constipação
+                            intestinal, visando restaurar o conforto e a regularidade do trânsito intestinal. </li>
+                    </ul>
                 </div>
                 <div class="card-treatment">
                     <h3>Cirurgias Coloproctológicas</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
-                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <ul>
+                        <li>Realização de cirurgias coloproctológicas com
+                            expertise e cuidado, garantindo resultados eficazes e uma recuperação tranquila
+                            para os pacientes. </li>
+                    </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>Ligadura Elástica para o tratamento da Doença Hemorroidária no consultório</h3>
-                    <p>Lorem consectetur, nemo minus nostrum quam quos nobis officiis, vitae incidunt consectetur ad
-                        accusantium aspernatur </p>
+                    <h3>Ligadura Elástica</h3>
+                    <ul>
+                        <li>Procedimento realizado no consultório para o tratamento da
+                            Doença Hemorroidária, oferecendo uma solução eficaz e minimamente invasiva
+                            para o alívio dos sintomas e a melhoria da qualidade de vida.</li>
+                    </ul>
                 </div>
                 <div class="card-treatment">
-                    <h3>Anuscopia com laudo</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo explicabo, nemo minus nostrum quam
-                        quos nobis officiis, vitae incidunt consectetur ad accusantium aspernatur </p>
+                    <h3>Anuscopia com Laudo</h3>
+                    <ul>
+                        <li> Procedimento de anuscopia realizado com precisão e
+                            acompanhado de laudo detalhado, fornecendo informações importantes para o
+                            diagnóstico e tratamento adequados.</li>
+                    </ul>
                 </div>
+
             </div>
-            <button class="btn-know-more">Saiba Mais</button>
+            </div>
+
             <button class="btn-scheduling">Agende Uma Consulta</button>
         </section>
         <section class="conteiner-contact" id="contact">
             <h3>Entre em Contato</h3>
-            <form>
+
+
+            <form id="contactForm">
                 <fildset class="input-group1">
-                    <input type="text" placeholder="Nome" id="name">
-                    <input type="email" placeholder="Email" id="email">
+                    <input type="text" placeholder="Nome Completo" id="name" required>
+                    <input type="email" placeholder="Email" id="email" required>
                     <input type="tel" placeholder="Telefone" id="tel">
                 </fildset>
                 <fildset class="input-group2">
-                    <input type="text" placeholder="Assunto" id="subject">
-                    <input type="text" placeholder="Mensagem" id="message">
+                    <input type="text" placeholder="Assunto" id="subject" required>
+                    <input type="text" placeholder="Mensagem" id="message" required>
                 </fildset>
 
+                <button class="btn-submit" onclick="sendMail()">Enviar!</button>
             </form>
         </section>
-        <section class="local">
-                <iframe id="local"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.410974821285!2d-46.6395571!3d-23.5557714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a33f940d283%3A0x823417b995bc2ab9!2sDr.%20Paola%20Trindade%20Meinicke!5e0!3m2!1spt-BR!2sbr!4v1713809979655!5m2!1spt-BR!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+        <section class="local" id="local">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d271.8613736615687!2d-46.577560035434146!3d-23.54271231469791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec17d4e401d%3A0x7156a3e4fc08d9a3!2sR.%20Bom%20Sucesso%2C%20220%20-%2015%C2%BA%20andar%20-%20Sala%201516%20-%20Cidade%20M%C3%A3e%20do%20C%C3%A9u%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003305-000!5e0!3m2!1spt-BR!2sbr!4v1713816249109!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
             <div class="adress-info">
 
                 <div class="local-info">
-                    <div class="title-info"> 
-                        <img src="img/local-icon.svg" alt="">
-                        <h5>Consultorio Bairro tal</h5>
+                    <div class="title-info">
+                        <img src="./img/local-icon.svg" alt="">
+                        <h5>Consultorio Tatuapé</h5>
                     </div>
-                    <p>Endereço Lorem ipsum dolor sit amet consectetur - gendi. Dignissimos, suscipi, 1772</p>
+                    <p>ENDEREÇO: Rua Bom Sucesso, 220 - 15º andar - Sala 1516. Edifício Platina Torre
+                        Office Tatuapé, São Paulo/SP</p>
                 </div>
-
                 <div class="info">
-                    <img src="img/mail-icon.svg" alt="icone email">
-                    <p>contato@gmail.com</p>
-                </div >
+                    <img src="./img/mail-icon.svg" alt="icone email">
+                    <a href="mailto:contatodrapaolaprocto@gmail.com" target="_blank" rel="noopener noreferrer"
+                        style="text-decoration: none;">
+                        <p>contatodrapaolaprocto@gmail.com</p>
+                    </a>
+                </div>
                 <div class="info">
                     <img src="img/Whatssap-icon.svg" alt="icone whatssap">
-                    <p>00000-000</p>
+                    <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
+                        target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                        <p>+55 11 98695-6577</p>
+                    </a>
                 </div>
                 <div class="info">
-                    <img src="img/tel-icon.svg" alt="icone telefone">
-                    <p>00000-000</p>
-                </div>  
+                    <img src="./img/tel-icon.svg" alt="icone telefone">
+                    <p>(11) 98695-6577</p>
+                </div>
             </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="logo-footer">
+            <img src="img/logo.png" width="250" alt="">
+            <p>© Dra. Paola Trindade Meinicke - Coloproctologia</p>
+        </div>
+        <div class="nav-footer">
+            <div class="links-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#local">Localização</a></li>
+                </ul>
+            </div>
+            <div class="contact-nav">
+                <h4>Contatos</h4>
+                <div class="info-nav">
+                    <img src="img/mail-icon.svg" alt="icone email">
+                    <p>contatodrapaolaprocto@gmail.com</p>
+                </div>
+                <div class="info-nav">
+                    <img src="img/Whatssap-icon.svg" alt="icone whatssap">
+                    <p>(11) 98695-6577</p>
+                </div>
+                <div class="info-nav">
+                    <img src="img/tel-icon.svg" alt="icone telefone">
+                    <p>(11) 98695-6577</p>
+                </div>
+            </div>
+
+            <div class="icons-nav">
+                <a href="https://www.linkedin.com/in/drapaolameinicke" target="_blank" rel="noopener noreferrer"><img
+                        class="icon-redes" src="./img/linkdlin.svg" alt=""></a>
+                <a href="https://www.instagram.com/drapaola.procto/" target="_blank" rel="noopener noreferrer"><img
+                        class="icon-redes" src="./img/Insta-icon.svg" alt=""></a>
+                <a href="https://api.whatsapp.com/send/?phone=5511986956577&text&type=phone_number&app_absent=0"
+                    target="_blank" rel="noopener noreferrer"><img class="icon-redes" src="img/whatssap-icon.svg"
+                        alt=""></a>
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
