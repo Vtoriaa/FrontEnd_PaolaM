@@ -6,14 +6,16 @@
   list-style: none;
   border: 0;
 }
-a:link {
+* a:link {
+  color: #757171;
+}
+* a:visited {
+  color: #757171;
+}
+* a:active {
   color: #757171;
 }
 
-
-a:visited {
-   color: #757171;
-}
 body {
   background-color: #F7F8F7;
 }
@@ -427,6 +429,15 @@ header .navbar .btn-header {
     width: 200px;
   }
 }
+.conteiner-contact form button {
+  background-color: #8DA39D;
+  padding: 10px 60px;
+  color: #F7F8F7;
+  font: normal 500 16px "Montserrat", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-bottom: 18px;
+}
 
 .local {
   display: flex;
@@ -467,6 +478,7 @@ header .navbar .btn-header {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: #757171;
 }
 @media screen and (max-width: 1030px) {
   .local .adress-info {
@@ -484,10 +496,22 @@ header .navbar .btn-header {
   flex-direction: column;
   gap: 10px;
 }
+@media screen and (max-width: 1030px) {
+  .local .adress-info .local-info p {
+    font-size: 14px;
+    color: #757171;
+  }
+}
 .local .adress-info .local-info .title-info {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+@media screen and (max-width: 1030px) {
+  .local .adress-info .local-info .title-info {
+    font-size: 14px;
+    color: #757171;
+  }
 }
 .local .adress-info .local-info .title-info h5 {
   font-weight: 600;
@@ -501,6 +525,11 @@ header .navbar .btn-header {
 }
 .local .adress-info .info p {
   font-size: 18px;
+}
+@media screen and (max-width: 1030px) {
+  .local .adress-info .info p {
+    font-size: 14px;
+  }
 }
 
 footer {
@@ -540,9 +569,10 @@ footer .nav-footer {
   flex-direction: row;
   gap: 4rem;
 }
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 590px) {
   footer .nav-footer {
-    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
     gap: 1rem;
   }
 }
@@ -551,6 +581,13 @@ footer .nav-footer .links-nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@media screen and (max-width: 590px) {
+  footer .nav-footer .links-nav {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
 }
 footer .nav-footer .links-nav h4 {
   font-size: 20px;
@@ -565,7 +602,7 @@ footer .nav-footer .contact-nav {
   font: normal 500 13px "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 13px;
 }
 footer .nav-footer .contact-nav h4 {
   font-size: 20px;
@@ -577,7 +614,7 @@ footer .nav-footer .contact-nav .info-nav {
   list-style: none;
   gap: 10px;
 }
-@media screen and (max-width: 36px) {
+@media screen and (max-width: 560px) {
   footer .nav-footer .contact-nav .info-nav {
     flex-direction: column;
   }
